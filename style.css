@@ -1,0 +1,114 @@
+:root {
+  --cream: #f2eae2;
+  --pure-white: #fff;
+  --aurometal-saurus: #6c7289;
+  --gunmetal: #1c232b;
+  --deep-aquamarine: #3d8168;
+  --deep-aquamarine-hover: #1A4032;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cream);
+  height: 100vh;
+}
+
+#card {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  background: var(--pure-white);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--aurometal-saurus);
+  letter-spacing: 5px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--gunmetal);
+  margin-top: 20px;
+}
+
+#main-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--aurometal-saurus);
+  margin-top: 24px;
+}
+
+#prices {
+  display: flex;
+  align-items: center;
+  margin-top: 29px;
+}
+
+#price-left {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--deep-aquamarine);
+  margin-right: 19px;
+}
+
+#price-right {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  color: var(--aurometal-saurus);
+}
+
+#button-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 236px;
+  height: 48px;
+  background: var(--deep-aquamarine);
+  border-radius: 8px;
+  border-style: none;
+  color: var(--pure-white);
+  gap: 11.61px;
+  margin-top: 30px;
+}
+
+#button-text {
+  color: var(--pure-white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#button-cart:hover {
+    background: var(--deep-aquamarine-hover);
+}
